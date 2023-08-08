@@ -1,0 +1,73 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.navIcon{
+    width: 50px;
+}
+
+.nav-link{
+    color: white;
+    font-family: 'Cormorant Garamond', serif;
+    font-size: 1.4rem;
+}
+
+.fondoIndex{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url(../img/fondobar2.jpg);
+    background-size: cover;
+    height: 600px;
+}
+
+.titulo{
+    font-family: 'Cormorant Garamond', serif;
+    font-size: 4rem;
+    font-weight: bold;
+}
+
+.home_Menu{
+    background-color: #bb9457;
+    display: flex;
+    justify-content: center;
+}
+
+.text_home{
+    font-family: 'Allison', cursive;
+    font-size: 8rem;
+    color: #bc6c25;
+}
+
+.botones_Home{
+   text-decoration: none;
+   margin: 50px;
+   font-size: 1.5rem;
+   border: black solid 10px;
+   padding: 10px;
+   color: black;
+   background-color: white;
+}
+
+.footer{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    background-color: #6f1d1b;
+}
+
+.footerItem{
+    font-family: 'Cormorant Garamond', serif;
+    color: white;
+    font-size: 1.2rem;
+    margin: 10px;
+    text-decoration: none;
+}
+
+.redes{
+    display: flex;
+    justify-content: flex-end;
+    align-content: flex-end;
+}
