@@ -33,6 +33,11 @@
     background-color: #bb9457;
     display: flex;
     justify-content: center;
+    height: 200px;
+}
+
+.home_Icon{
+    height: 400px;
 }
 
 .text_home{
@@ -43,12 +48,12 @@
 
 .botones_Home{
    text-decoration: none;
-   margin: 50px;
-   font-size: 1.5rem;
-   border: black solid 10px;
-   padding: 10px;
+   margin-top: 50px;
+   font-family:'Cormorant Garamond', serif;
+   font-size: 2rem;
+   font-weight: bold;
    color: black;
-   background-color: white;
+   width: 100px;
 }
 
 .footer{
