@@ -76,3 +76,57 @@
     justify-content: flex-end;
     align-content: flex-end;
 }
+
+.fondoAbt{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url(../img/local2.avif);
+    background-size: cover;
+    height: 600px;
+    color: white;
+}
+
+.abt{
+    display: flex;
+    background-color: #bb9457;
+    justify-content: center;
+    align-items: center;
+}
+
+.imgAbt{
+    height: 500px;
+    margin: 50px;
+}
+
+.abtText{
+    font-family: 'Fraunces', serif;
+    font-size: 1.5rem;
+    color: black;
+    margin: 10px;
+}
+
+.abtRedesItem{
+    font-family: 'Fraunces', serif;
+    font-size: 1.5rem;
+    color: black;
+    text-decoration: none;
+}
+
+.abtRedes{
+    display: flex;
+    background-color: #bb9457;
+    justify-content: center;
+    align-items: center;
+}
+
+.abtRedesImg{
+    width: 50px;
+    margin: 5px;
+}
+
+.mapaAbt{
+    display: flex;
+    justify-content: center;
+    background-color: #bb9457;
+}
