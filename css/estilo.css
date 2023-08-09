@@ -192,3 +192,18 @@
     width: 600px;
 }
 /* Contacto fin */
+
+/* Galeria inicio */
+.fondoGal{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url(../img/fondocafe.jpeg);
+    background-size: cover;
+    height: 600px;
+    color: white;
+}
+
+.carouselExample{
+    width: 100px;
+}
