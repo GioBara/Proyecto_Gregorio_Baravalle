@@ -171,3 +171,24 @@
 /* Carta Virtual fin */
 
 /* Contacto inicio */
+.fondoContac{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url(../img/fondomadera4.jpg);
+    background-size: cover;
+    height: 600px;
+    color: white;
+}
+
+.containerF{
+    display: flex;
+    background-color: #bb9457;
+    height: 500px;
+}
+
+.formulario{
+    margin: auto;
+    width: 600px;
+}
+/* Contacto fin */
