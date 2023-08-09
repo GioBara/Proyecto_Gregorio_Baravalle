@@ -1,9 +1,11 @@
+/* Reseteo */
 *{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
 
+/* Nav bar inicio */
 .navIcon{
     width: 50px;
 }
@@ -13,7 +15,9 @@
     font-family: 'Cormorant Garamond', serif;
     font-size: 1.4rem;
 }
+/* Nav bar final*/
 
+/* Home inicio */
 .fondoIndex{
     display: flex;
     justify-content: center;
@@ -55,7 +59,9 @@
    color: black;
    width: 100px;
 }
+/* Home final */
 
+/* Footer inicio */
 .footer{
     display: flex;
     flex-direction: column;
@@ -76,7 +82,9 @@
     justify-content: flex-end;
     align-content: flex-end;
 }
+/* Footer final */
 
+/* Acerca de nosotros inicio */
 .fondoAbt{
     display: flex;
     justify-content: center;
@@ -130,3 +138,36 @@
     justify-content: center;
     background-color: #bb9457;
 }
+/* Acerca de nosotros fin */
+
+/* Carta Virtual inicio */
+.fondoCarta{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url(../img/fondocarta.png);
+    background-size: cover;
+    height: 600px;
+    color: white;
+}
+
+.accordion-button{
+    background-color: #bb9457;
+    font-family:  'Fraunces', serif;
+    font-size: 1.5rem;
+    color: black;
+    font-weight: bold;
+    height: 100px;
+}
+
+.accordion-collapse{
+    background-color: #bb9457;
+}
+
+.cartaTexto{
+    font-family: 'Fraunces', serif;
+    margin: 20px;
+}
+/* Carta Virtual fin */
+
+/* Contacto inicio */
