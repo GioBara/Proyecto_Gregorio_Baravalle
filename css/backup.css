@@ -1,0 +1,209 @@
+/* Reseteo */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Nav bar inicio */
+.navIcon{
+    width: 50px;
+}
+
+.nav-link{
+    color: white;
+    font-family: 'Cormorant Garamond', serif;
+    font-size: 1.4rem;
+}
+/* Nav bar final*/
+
+/* Home inicio */
+.fondoIndex{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url(../img/fondobar2.jpg);
+    background-size: cover;
+    height: 600px;
+}
+
+.titulo{
+    font-family: 'Cormorant Garamond', serif;
+    font-size: 4rem;
+    font-weight: bold;
+}
+
+.home_Menu{
+    background-color: #bb9457;
+    display: flex;
+    justify-content: center;
+    height: 200px;
+}
+
+.home_Icon{
+    height: 400px;
+}
+
+.text_home{
+    font-family: 'Allison', cursive;
+    font-size: 8rem;
+    color: #bc6c25;
+}
+
+.botones_Home{
+   text-decoration: none;
+   margin-top: 50px;
+   font-family:'Cormorant Garamond', serif;
+   font-size: 2rem;
+   font-weight: bold;
+   color: black;
+   width: 100px;
+}
+/* Home final */
+
+/* Footer inicio */
+.footer{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    background-color: #6f1d1b;
+}
+
+.footerItem{
+    font-family: 'Cormorant Garamond', serif;
+    color: white;
+    font-size: 1.2rem;
+    margin: 10px;
+    text-decoration: none;
+}
+
+.redes{
+    display: flex;
+    justify-content: flex-end;
+    align-content: flex-end;
+}
+/* Footer final */
+
+/* Acerca de nosotros inicio */
+.fondoAbt{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url(../img/local2.avif);
+    background-size: cover;
+    height: 600px;
+    color: white;
+}
+
+.abt{
+    display: flex;
+    background-color: #bb9457;
+    justify-content: center;
+    align-items: center;
+}
+
+.imgAbt{
+    height: 500px;
+    margin: 50px;
+}
+
+.abtText{
+    font-family: 'Fraunces', serif;
+    font-size: 1.5rem;
+    color: black;
+    margin: 10px;
+}
+
+.abtRedesItem{
+    font-family: 'Fraunces', serif;
+    font-size: 1.5rem;
+    color: black;
+    text-decoration: none;
+}
+
+.abtRedes{
+    display: flex;
+    background-color: #bb9457;
+    justify-content: center;
+    align-items: center;
+}
+
+.abtRedesImg{
+    width: 50px;
+    margin: 5px;
+}
+
+.mapaAbt{
+    display: flex;
+    justify-content: center;
+    background-color: #bb9457;
+}
+/* Acerca de nosotros fin */
+
+/* Carta Virtual inicio */
+.fondoCarta{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url(../img/fondocarta.png);
+    background-size: cover;
+    height: 600px;
+    color: white;
+}
+
+.accordion-button{
+    background-color: #bb9457;
+    font-family:  'Fraunces', serif;
+    font-size: 1.5rem;
+    color: black;
+    font-weight: bold;
+    height: 100px;
+}
+
+.accordion-collapse{
+    background-color: #bb9457;
+}
+
+.cartaTexto{
+    font-family: 'Fraunces', serif;
+    margin: 20px;
+}
+/* Carta Virtual fin */
+
+/* Contacto inicio */
+.fondoContac{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url(../img/fondomadera4.jpg);
+    background-size: cover;
+    height: 600px;
+    color: white;
+}
+
+.containerF{
+    display: flex;
+    background-color: #bb9457;
+    height: 500px;
+}
+
+.formulario{
+    margin: auto;
+    width: 600px;
+}
+/* Contacto fin */
+
+/* Galeria inicio */
+.fondoGal{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url(../img/fondocafe.jpeg);
+    background-size: cover;
+    height: 600px;
+    color: white;
+}
+
+.carouselExample{
+    width: 100px;
+}
