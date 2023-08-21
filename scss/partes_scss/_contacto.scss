@@ -1,0 +1,25 @@
+.fondoContac{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url(../img/fondomadera4.jpg);
+    background-size: cover;
+    height: 600px;
+    color: $colorTitulo;
+    .titulo{
+        font-family: $fontTitulo;
+        font-size: 4rem;
+        font-weight: bold;
+    }   
+}
+
+.containerF{
+    display: flex;
+    background-color: $colorFondo;
+    height: 500px;
+    
+    .formulario{
+        margin: auto;
+        width: 600px;
+    }
+}

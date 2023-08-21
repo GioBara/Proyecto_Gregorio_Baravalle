@@ -1,0 +1,46 @@
+.carta{
+    background-color: $colorFondo;
+    .fondoCarta{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-image: url(../img/fondocarta.png);
+        background-size: cover;
+        height: 600px;
+        color: $colorTitulo;
+        .titulo{
+            font-family: $fontTitulo;
+            font-size: 4rem;
+            font-weight: bold;
+        }   
+    }
+    .accordion{
+        width: 80%;
+        margin: auto;
+        .accordion-button{
+            background-color: $colorFondo;
+            font-family:  $fontTexto;
+            font-size: 1.5rem;
+            color: $colorTexto;
+            font-weight: bold;
+            height: 100px;
+        }
+        .accordion-body{
+            background-color: $colorFondoSecundario;
+            .cartaTexto{
+                font-family: $fontTexto;
+                margin: 20px;
+                color: $colorTexto;
+            }
+        }
+        .accordion-collapse{
+            background-color: $colorFondo;
+        }
+
+    }
+    
+}
+
+
+
+

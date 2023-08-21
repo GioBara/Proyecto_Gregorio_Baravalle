@@ -1,15 +1,24 @@
+/*Titulo*/
+/*Fondo*/
+/*Texto*/
+/*Barra de Navegacion/Reset*/
 * {
-  margin: 0px;
-  padding: 0px;
+  margin: 0;
+  padding: 0;
   box-sizing: border-box; }
 
-.navIcon {
-  width: 50px; }
-  .navIcon .nav-link {
+.navbar {
+  background-color: #6f1d1b; }
+  .navbar .navIcon {
+    width: 50px; }
+  .navbar .nav-link {
     color: white;
-    font-family: 'Cormorant Garamond', serif;
+    font-family: "Fraunces", serif;
     font-size: 1.4rem; }
+  .navbar .nav-link:hover {
+    color: #bb9457; }
 
+/*Home*/
 .fondoIndex {
   display: flex;
   justify-content: center;
@@ -18,7 +27,7 @@
   background-size: cover;
   height: 600px; }
   .fondoIndex .titulo {
-    font-family: 'Cormorant Garamond', serif;
+    font-family: "Cormorant Garamond", serif;
     font-size: 4rem;
     font-weight: bold;
     color: white; }
@@ -28,34 +37,159 @@
   display: flex;
   justify-content: center;
   height: 200px; }
-  .home_Menu .text_home {
-    font-family: 'Allison', cursive;
-    font-size: 8rem;
-    color: #bc6c25; }
   .home_Menu .botones_Home {
     text-decoration: none;
     margin-top: 50px;
-    font-family: 'Cormorant Garamond', serif;
+    font-family: "Fraunces", serif;
     font-size: 2rem;
     font-weight: bold;
     color: black;
     width: 100px; }
+  .home_Menu .botones_Home:hover {
+    color: white; }
+
+.text_home {
+  font-family: 'Allison', cursive;
+  font-size: 8rem;
+  color: #bc6c25; }
 
 .home_Icon {
   height: 400px; }
 
+/*Acerca de nosotros*/
+.fondoAbt {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-image: url(../img/local2.avif);
+  background-size: cover;
+  height: 600px;
+  color: white; }
+  .fondoAbt .titulo {
+    font-family: "Cormorant Garamond", serif;
+    font-size: 4rem;
+    font-weight: bold; }
+
+.abt {
+  display: flex;
+  background-color: #bb9457;
+  justify-content: center;
+  align-items: center; }
+  .abt .imgAbt {
+    height: 500px;
+    margin: 50px; }
+  .abt .abtText {
+    font-family: "Fraunces", serif;
+    font-weight: bold;
+    font-size: 1.5rem;
+    color: black;
+    margin: 10px; }
+
+.abtRedes {
+  display: flex;
+  background-color: #bb9457;
+  justify-content: center;
+  align-items: center; }
+  .abtRedes .abtRedesItem {
+    font-family: "Fraunces", serif;
+    font-size: 1.5rem;
+    color: black;
+    text-decoration: none; }
+  .abtRedes .abtRedesImg {
+    width: 50px;
+    margin: 5px; }
+
+.mapaAbt {
+  display: flex;
+  justify-content: center;
+  background-color: #bb9457; }
+
+/*Carta virtual*/
+.carta {
+  background-color: #bb9457; }
+  .carta .fondoCarta {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url(../img/fondocarta.png);
+    background-size: cover;
+    height: 600px;
+    color: white; }
+    .carta .fondoCarta .titulo {
+      font-family: "Cormorant Garamond", serif;
+      font-size: 4rem;
+      font-weight: bold; }
+  .carta .accordion {
+    width: 80%;
+    margin: auto; }
+    .carta .accordion .accordion-button {
+      background-color: #bb9457;
+      font-family: "Fraunces", serif;
+      font-size: 1.5rem;
+      color: black;
+      font-weight: bold;
+      height: 100px; }
+    .carta .accordion .accordion-body {
+      background-color: #6f1d1b; }
+      .carta .accordion .accordion-body .cartaTexto {
+        font-family: "Fraunces", serif;
+        margin: 20px;
+        color: black; }
+    .carta .accordion .accordion-collapse {
+      background-color: #bb9457; }
+
+/*Formulario de contacto*/
+.fondoContac {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-image: url(../img/fondomadera4.jpg);
+  background-size: cover;
+  height: 600px;
+  color: white; }
+  .fondoContac .titulo {
+    font-family: "Cormorant Garamond", serif;
+    font-size: 4rem;
+    font-weight: bold; }
+
+.containerF {
+  display: flex;
+  background-color: #bb9457;
+  height: 500px; }
+  .containerF .formulario {
+    margin: auto;
+    width: 600px; }
+
+/*Galeria*/
+.fondoGal {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-image: url(../img/fondocafe.jpeg);
+  background-size: cover;
+  height: 600px;
+  color: white; }
+  .fondoGal .titulo {
+    font-family: "Cormorant Garamond", serif;
+    font-size: 4rem;
+    font-weight: bold; }
+
+.carouselExample {
+  width: 100px; }
+
+/*Footer*/
 .footer {
   display: flex;
   flex-direction: column;
-  justify-content: flex-start;
+  justify-content: center;
+  align-content: space-around;
   background-color: #6f1d1b; }
   .footer .footerItem {
-    font-family: 'Cormorant Garamond', serif;
+    height: 25px;
+    font-family: "Cormorant Garamond", serif;
     color: white;
     font-size: 1.2rem;
     margin: 10px;
     text-decoration: none; }
-  .footer .redes {
-    display: flex;
-    justify-content: flex-end;
-    align-content: flex-end; }
+  .footer .redes:hover {
+    color: #bb9457; }

@@ -1,0 +1,18 @@
+.footer{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: space-around;
+    background-color: $colorFondoSecundario;
+    .footerItem{
+        height: 25px;
+        font-family: $fontTitulo;
+        color: $colorTitulo;
+        font-size: 1.2rem;
+        margin: 10px;
+        text-decoration: none;
+    }
+    .redes:hover{
+        color: $colorFondo;
+    }
+}

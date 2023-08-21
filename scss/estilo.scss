@@ -1,1 +1,21 @@
-@import "home";
+@import "variables";
+/*Barra de Navegacion/Reset*/
+@import "./partes_scss/nav";
+
+/*Home*/
+@import "./partes_scss/home";
+
+/*Acerca de nosotros*/
+@import "./partes_scss/abtus";
+
+/*Carta virtual*/
+@import "./partes_scss/carta";
+
+/*Formulario de contacto*/
+@import "./partes_scss/contacto";
+
+/*Galeria*/
+@import "./partes_scss/galeria";
+
+/*Footer*/
+@import "./partes_scss/footer";
