@@ -5,8 +5,13 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content="Pagina web del Alpino Ristorante">
     <meta name="keywords" content="Restaurante, Cafeteria, Bar, Comida casera">
+    <!--Link de Bootstrap-->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
+    <!--Link de AOS-->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <!--link de css-->
     <link rel="stylesheet" href="./css/estilo.css">
+    <!--Links de Fonts-->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Allison&family=Cormorant+Garamond:wght@300&family=Fraunces:wght@100&family=Gloock&display=swap" rel="stylesheet">
@@ -35,14 +40,14 @@
     </nav>
   </header>
     
-  <main>
+  <main class="home">
     <!--Fondo y Titulo-->
     <div class="fondoIndex">
-      <h1 class="titulo">Home</h1>
+      <h1 class="titulo" data-aos="zoom-in">Home</h1>
     </div>
 
     <!--Icono Home-->
-    <div class="home_Icon home_Menu">
+    <div class="home_Icon home_Menu"  data-aos="fade-up" data-aos-duration="3000">
       <img src="./img/icono.png" alt="Logo">
     </div>
     <!--Titulo-->
@@ -86,5 +91,10 @@
     
   <!--Srcipt Bootstrap-->
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm" crossorigin="anonymous"></script>
+  <!--Script de AOS-->
+  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+  <script>
+    AOS.init();
+  </script>
 </body>
 </html>

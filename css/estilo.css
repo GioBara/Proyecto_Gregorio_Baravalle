@@ -19,42 +19,42 @@
     color: #bb9457; }
 
 /*Home*/
-.fondoIndex {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  background-image: url(../img/fondobar2.jpg);
-  background-size: cover;
-  height: 600px; }
-  .fondoIndex .titulo {
-    font-family: "Cormorant Garamond", serif;
-    font-size: 4rem;
-    font-weight: bold;
-    color: white; }
-
-.home_Menu {
-  background-color: #bb9457;
-  display: flex;
-  justify-content: center;
-  height: 200px; }
-  .home_Menu .botones_Home {
-    text-decoration: none;
-    margin-top: 50px;
-    font-family: "Fraunces", serif;
-    font-size: 2rem;
-    font-weight: bold;
-    color: black;
-    width: 100px; }
-  .home_Menu .botones_Home:hover {
-    color: white; }
-
-.text_home {
-  font-family: 'Allison', cursive;
-  font-size: 8rem;
-  color: #bc6c25; }
-
-.home_Icon {
-  height: 400px; }
+.home {
+  background-color: #bb9457; }
+  .home .fondoIndex {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url(../img/fondobar2.jpg);
+    background-size: cover;
+    height: 600px; }
+    .home .fondoIndex .titulo {
+      font-family: "Cormorant Garamond", serif;
+      font-size: 4rem;
+      font-weight: bold;
+      color: white; }
+  .home .home_Menu {
+    background-color: #bb9457;
+    display: flex;
+    justify-content: center;
+    height: 200px; }
+    .home .home_Menu .botones_Home {
+      text-decoration: none;
+      margin-top: 50px;
+      font-family: "Fraunces", serif;
+      font-size: 2rem;
+      font-weight: bold;
+      color: black;
+      width: 100px; }
+    .home .home_Menu .botones_Home:hover {
+      color: white;
+      transform: scale(1.1, 1.1); }
+  .home .text_home {
+    font-family: 'Allison', cursive;
+    font-size: 8rem;
+    color: #bc6c25; }
+  .home .home_Icon {
+    height: 400px; }
 
 /*Acerca de nosotros*/
 .fondoAbt {
@@ -183,6 +183,9 @@
     .galeria .imgGal .imgs {
       margin: 10px;
       width: 700px; }
+    .galeria .imgGal .imgs:hover {
+      transform: scale(1.05, 1.05);
+      transition: all 2s ease; }
   .galeria .carrusel {
     width: 80%;
     margin: auto; }
