@@ -25,7 +25,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    background-image: url(../img/fondobar2.jpg);
+    background-image: url(../img/fondobar2R.png);
     background-size: cover;
     height: 600px; }
     .home .fondoIndex .titulo {
@@ -113,7 +113,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    background-image: url(../img/fondocarta.png);
+    background-image: url(../img/fondocartaR.png);
     background-size: cover;
     height: 600px;
     color: white; }
@@ -145,7 +145,7 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  background-image: url(../img/fondomadera4.jpg);
+  background-image: url(../img/fondomadera4R.jpg);
   background-size: cover;
   height: 600px;
   color: white; }
@@ -169,7 +169,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    background-image: url(../img/fondocafe.jpeg);
+    background-image: url(../img/fondocafeR.jpg);
     background-size: cover;
     height: 600px;
     color: white; }
