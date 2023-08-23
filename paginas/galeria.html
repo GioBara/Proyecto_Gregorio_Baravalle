@@ -3,39 +3,58 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Galeria virtual del negocio y sus postres, tragos, y comidas">
+    <meta name="keywords" content="Galería, Cafe, Postres, Bar, Cafeteria, Restaurante">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
     <link rel="stylesheet" href="../css/estilo.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Allison&family=Cormorant+Garamond:wght@300&family=Fraunces:wght@100&family=Gloock&display=swap" rel="stylesheet">
     <link rel="shortcut icon" href="../img/icono.png">
-    <title>Alpino Ristorante</title>
+    <title>Alpino Ristorante | Galería</title>
 </head>
+
 <body>
-    <header>
-        <nav class="navbar navbar-expand-lg fixed-top " style="background-color: #6f1d1b">
-            <div class="container-fluid nav">
-              <a class="navbar-brand" href="../index.html"><img class="navIcon" src="../img/icono.png" alt="Icono Nav"></a>
-              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-              </button>
-              <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
-                <div class="navbar-nav">
-                  <a class="nav-link" aria-current="page" href="./abtus.html">Acerca de nosotros</a>
-                  <a class="nav-link" href="./carta.html">Carta</a>
-                  <a class="nav-link" href="./contacto.html">Contacto</a>
-                  <a class="nav-link" href="./galeria.html">Galeria</a>
-                </div>
-              </div>
-            </div>
-          </nav>
-    </header>
-
-    <main>
-      <div class="fondoGal">
-        <h1 class="titulo">Galeria</h1>
+  <!--Header/Navbar-->
+  <header>
+    <nav class="navbar navbar-expand-lg fixed-top">
+      <div class="container-fluid nav">
+        <a class="navbar-brand" href="../index.html"><img class="navIcon" src="../img/icono.png" alt="Icono Nav"></a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+          <div class="navbar-nav">
+            <a class="nav-link" aria-current="page" href="./abtus.html">Acerca de nosotros</a>
+            <a class="nav-link" href="./carta.html">Carta</a>
+            <a class="nav-link" href="./contacto.html">Contacto</a>
+            <a class="nav-link" href="./galeria.html">Galería</a>
+          </div>
+        </div>
       </div>
+    </nav>
+  </header>
 
+  <main class="galeria">
+    <!--Fondo y Titulo-->
+    <div class="fondoGal">
+      <h1 class="titulo">Galería</h1>
+    </div>
+
+    <!--Imagenes varias-->
+    <div class="imgGal container-fluid">
+      <div class="row">
+        <div class="col-lg-6 col-md-12">
+          <img src="../img/tragos.avif" alt="Imagen de tragos" class="imgs">
+        </div>
+        <div class="col-lg-6 col-md-12">
+          <img src="../img/negroniR.png" alt="Negroni" class="imgs">
+        </div>
+      </div>
+    </div>
+
+    <!--Carrusel de imagenes-->
+    <div class="carrusel">
       <div id="carouselExampleIndicators" class="carousel slide">
         <div class="carousel-indicators">
           <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
@@ -43,11 +62,10 @@
           <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
           <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="3" aria-label="Slide 4"></button>
           <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="4" aria-label="Slide 5"></button>
-          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="5" aria-label="Slide 6"></button>
         </div>
         <div class="carousel-inner">
           <div class="carousel-item active">
-            <img src="../img/pizza.webp" class="d-block w-100" alt="Pizza">
+            <img src="../img/pizzaR.png" class="d-block w-100" alt="Pizza">
           </div>
           <div class="carousel-item">
             <img src="../img/papas.webp" class="d-block w-100" alt="Papas">
@@ -57,9 +75,6 @@
           </div>
           <div class="carousel-item">
             <img src="../img/vinos.jpg" class="d-block w-100" alt="Vinos">
-          </div>
-          <div class="carousel-item">
-            <img src="../img/tiramisu'.jpg" class="d-block w-100" alt="Tiramisu">
           </div>
           <div class="carousel-item">
             <img src="../img/cafe2.jpg" class="d-block w-100" alt="Cafe">
@@ -74,24 +89,27 @@
           <span class="visually-hidden">Next</span>
         </button>
       </div>
-    </main>
+    </div>
+  </main>
 
-    <footer>
-      <div class="container-fluid text-center">
-        <div class="row">  
-          <div class="footer col-lg-6">
-            <h3 class="footerItem">Lorem ipsum dolor sit amet consectetur adipisicing elit. Obcaecati, odio!</h3>
-            <h3 class="footerItem">Lorem ipsum dolor sit amet consectetur adipisicing elit. Vel, consectetur?</h3>
-          </div>
-          <div class="footer col-lg-6">
-            <a href="#" class="footerItem redes">Instagram</a>
-            <a href="#" class="footerItem redes">Twitter</a>
-            <a href="#" class="footerItem redes">Facebook</a>
-          </div>
+  <!--Footer/Redes Sociales-->
+  <footer>
+    <div class="container-fluid text-center">
+      <div class="row">  
+        <div class="footer col-lg-6 col-md-12">
+          <h3 class="footerItem">Lorem ipsum dolor sit amet consectetur adipisicing elit. Obcaecati, odio!</h3>
+          <h3 class="footerItem">Lorem ipsum dolor sit amet consectetur adipisicing elit. Vel, consectetur?</h3>
+        </div>
+        <div class="footer col-lg-6 col-md-12">
+          <a href="#" class="footerItem redes">Instagram</a>
+          <a href="#" class="footerItem redes">Twitter</a>
+          <a href="#" class="footerItem redes">Facebook</a>
         </div>
       </div>
-    </footer>
+    </div>
+  </footer>
     
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm" crossorigin="anonymous"></script>
+  <!--Script de Bootstrap-->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm" crossorigin="anonymous"></script>
 </body>
 </html>

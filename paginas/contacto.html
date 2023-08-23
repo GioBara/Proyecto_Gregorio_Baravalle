@@ -3,83 +3,91 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Formulario de contacto del Restaurante Alpino">
+    <meta name="keywords" content="Contacto, Formulario, Restaurante, Bar, Cafeteria">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
     <link rel="stylesheet" href="../css/estilo.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Allison&family=Cormorant+Garamond:wght@300&family=Fraunces:wght@100&family=Gloock&display=swap" rel="stylesheet">
     <link rel="shortcut icon" href="../img/icono.png">
-    <title>Alpino Ristorante</title>
+    <title>Alpino Ristorante | Contacto</title>
 </head>
+
 <body>
-    <header>
-        <nav class="navbar navbar-expand-lg fixed-top " style="background-color: #6f1d1b">
-            <div class="container-fluid nav">
-              <a class="navbar-brand" href="../index.html"><img class="navIcon" src="../img/icono.png" alt="Icono Nav"></a>
-              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-              </button>
-              <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
-                <div class="navbar-nav">
-                  <a class="nav-link" aria-current="page" href="./abtus.html">Acerca de nosotros</a>
-                  <a class="nav-link" href="./carta.html">Carta</a>
-                  <a class="nav-link" href="./contacto.html">Contacto</a>
-                  <a class="nav-link" href="./galeria.html">Galeria</a>
-                </div>
-              </div>
-            </div>
-          </nav>
-    </header>
-
-    <main>
-      <div class="fondoContac">
-        <h1 class="titulo">Contacto</h1>
-      </div>
-
-      <div class="containerF">
-        <form class="formulario">
-          <div class="mb-3">
-            <label for="exampleInputEmail1" class="form-label">Email</label>
-            <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
-            <div id="emailHelp" class="form-text">No compartiremos tu Email con nadie mas.</div>
-          </div>
-          <div class="mb-3">
-            <label for="exampleInputEmail1" class="form-label">Nombre</label>
-            <input type="text" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
-          </div>
-          <div class="mb-3">
-            <label for="exampleInputEmail1" class="form-label">Apellido</label>
-            <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
-          </div>
-          <div class="mb-3">
-            <label for="exampleInputPassword1" class="form-label">Contraseña</label>
-            <input type="password" class="form-control" id="exampleInputPassword1">
-          </div>
-          <div class="mb-3 form-check">
-            <input type="checkbox" class="form-check-input" id="exampleCheck1">
-            <label class="form-check-label" for="exampleCheck1">Acepto los terminos y condiciones</label>
-          </div>
-          <button type="submit" class="btn btn-dark">Enviar</button>
-        </form>
-      </div>
-    </main>
-
-    <footer>
-      <div class="container-fluid text-center">
-        <div class="row">  
-          <div class="footer col-lg-6">
-            <h3 class="footerItem">Lorem ipsum dolor sit amet consectetur adipisicing elit. Obcaecati, odio!</h3>
-            <h3 class="footerItem">Lorem ipsum dolor sit amet consectetur adipisicing elit. Vel, consectetur?</h3>
-          </div>
-          <div class="footer col-lg-6">
-            <a href="#" class="footerItem redes">Instagram</a>
-            <a href="#" class="footerItem redes">Twitter</a>
-            <a href="#" class="footerItem redes">Facebook</a>
+  <!--Header/Navbar-->
+  <header>
+    <nav class="navbar navbar-expand-lg fixed-top">
+      <div class="container-fluid nav">
+        <a class="navbar-brand" href="../index.html"><img class="navIcon" src="../img/icono.png" alt="Icono Nav"></a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+          <div class="navbar-nav">
+            <a class="nav-link" aria-current="page" href="./abtus.html">Acerca de nosotros</a>
+            <a class="nav-link" href="./carta.html">Carta</a>
+            <a class="nav-link" href="./contacto.html">Contacto</a>
+            <a class="nav-link" href="./galeria.html">Galería</a>
           </div>
         </div>
       </div>
-    </footer>
-    
+    </nav>
+  </header>
+
+  <main>
+    <!--Fondo y Titulo-->
+    <div class="fondoContac">
+      <h1 class="titulo">Contacto</h1>
+    </div>
+
+    <!--Formulario-->
+    <div class="containerF">
+      <form class="formulario row">
+        <div class="mb-3 col-lg-6 col-md-12">
+          <label for="exampleInputEmail1" class="form-label">Email</label>
+          <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+          <div id="emailHelp" class="form-text">No compartiremos tu Email con nadie mas.</div>
+        </div>
+        <div class="mb-3 col-lg-6 col-md-12">
+          <label for="exampleInputEmail1" class="form-label">Nombre</label>
+          <input type="text" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+        </div>
+        <div class="mb-3 col-lg-6 col-md-12">
+          <label for="exampleInputEmail1" class="form-label">Apellido</label>
+          <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+        </div>
+        <div class="mb-3 col-lg-6 col-md-12">
+          <label for="exampleInputPassword1" class="form-label">Contraseña</label>
+          <input type="password" class="form-control" id="exampleInputPassword1">
+        </div>
+        <div class="mb-3 form-check">
+          <input type="checkbox" class="form-check-input" id="exampleCheck1">
+          <label class="form-check-label" for="exampleCheck1">Acepto los términos y condiciones</label>
+        </div>
+        <button type="submit" class="btn btn-dark">Enviar</button>
+      </form>
+    </div>
+  </main>
+
+  <!--Footer/Redes sociales-->
+  <footer>
+    <div class="container-fluid text-center">
+      <div class="row">  
+        <div class="footer col-lg-6 col-md-12">
+          <h3 class="footerItem">Lorem ipsum dolor sit amet consectetur adipisicing elit. Obcaecati, odio!</h3>
+          <h3 class="footerItem">Lorem ipsum dolor sit amet consectetur adipisicing elit. Vel, consectetur?</h3>
+        </div>
+        <div class="footer col-lg-6 col-md-12">
+          <a href="#" class="footerItem redes">Instagram</a>
+          <a href="#" class="footerItem redes">Twitter</a>
+          <a href="#" class="footerItem redes">Facebook</a>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+    <!--Script de Bootstrap-->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm" crossorigin="anonymous"></script>
 </body>
 </html>

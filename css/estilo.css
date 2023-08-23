@@ -93,8 +93,10 @@
   .abtRedes .abtRedesItem {
     font-family: "Fraunces", serif;
     font-size: 1.5rem;
-    color: black;
+    color: white;
     text-decoration: none; }
+  .abtRedes .abtRedesItem:hover {
+    color: #772e25; }
   .abtRedes .abtRedesImg {
     width: 50px;
     margin: 5px; }
@@ -123,18 +125,18 @@
     width: 80%;
     margin: auto; }
     .carta .accordion .accordion-button {
-      background-color: #bb9457;
+      background-color: #6f1d1b;
       font-family: "Fraunces", serif;
       font-size: 1.5rem;
-      color: black;
+      color: white;
       font-weight: bold;
       height: 100px; }
     .carta .accordion .accordion-body {
-      background-color: #6f1d1b; }
+      background-color: #772e25; }
       .carta .accordion .accordion-body .cartaTexto {
         font-family: "Fraunces", serif;
         margin: 20px;
-        color: black; }
+        color: white; }
     .carta .accordion .accordion-collapse {
       background-color: #bb9457; }
 
@@ -158,24 +160,32 @@
   height: 500px; }
   .containerF .formulario {
     margin: auto;
-    width: 600px; }
+    width: 1100px; }
 
 /*Galeria*/
-.fondoGal {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  background-image: url(../img/fondocafe.jpeg);
-  background-size: cover;
-  height: 600px;
-  color: white; }
-  .fondoGal .titulo {
-    font-family: "Cormorant Garamond", serif;
-    font-size: 4rem;
-    font-weight: bold; }
-
-.carouselExample {
-  width: 100px; }
+.galeria {
+  background-color: #bb9457; }
+  .galeria .fondoGal {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url(../img/fondocafe.jpeg);
+    background-size: cover;
+    height: 600px;
+    color: white; }
+    .galeria .fondoGal .titulo {
+      font-family: "Cormorant Garamond", serif;
+      font-size: 4rem;
+      font-weight: bold; }
+  .galeria .imgGal {
+    display: flex;
+    justify-content: space-around; }
+    .galeria .imgGal .imgs {
+      margin: 10px;
+      width: 700px; }
+  .galeria .carrusel {
+    width: 80%;
+    margin: auto; }
 
 /*Footer*/
 .footer {

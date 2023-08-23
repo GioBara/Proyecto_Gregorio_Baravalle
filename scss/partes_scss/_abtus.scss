@@ -39,8 +39,11 @@
     .abtRedesItem{
         font-family: $fontTexto;
         font-size: 1.5rem;
-        color: $colorTexto;
+        color: $colorTitulo;
         text-decoration: none;
+    }
+    .abtRedesItem:hover{
+        color: $colorFondoTerciario;
     }
     .abtRedesImg{
         width: 50px;

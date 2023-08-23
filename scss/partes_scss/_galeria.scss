@@ -1,4 +1,7 @@
-.fondoGal{
+.galeria{
+    background-color: $colorFondo;
+
+    .fondoGal{
     display: flex;
     justify-content: center;
     align-items: center;
@@ -10,8 +13,20 @@
         font-family: $fontTitulo;
         font-size: 4rem;
         font-weight: bold;
-    }   
+        }   
+    }
+    .imgGal{
+        display: flex;
+        justify-content: space-around;
+        .imgs{
+            margin: 10px;
+            width: 700px;
+        }
+    }
+    .carrusel{
+    width: 80%;
+    margin: auto;
+    }
+
 }
-.carouselExample{
-    width: 100px;
-}
+

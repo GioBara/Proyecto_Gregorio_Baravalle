@@ -18,19 +18,19 @@
         width: 80%;
         margin: auto;
         .accordion-button{
-            background-color: $colorFondo;
+            background-color: $colorFondoSecundario;
             font-family:  $fontTexto;
             font-size: 1.5rem;
-            color: $colorTexto;
+            color: $colorTitulo;
             font-weight: bold;
             height: 100px;
         }
         .accordion-body{
-            background-color: $colorFondoSecundario;
+            background-color: $colorFondoTerciario;
             .cartaTexto{
                 font-family: $fontTexto;
                 margin: 20px;
-                color: $colorTexto;
+                color: $colorTitulo;
             }
         }
         .accordion-collapse{
