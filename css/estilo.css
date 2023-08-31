@@ -52,30 +52,34 @@
       color: white;
       transform: scale(1.1, 1.1); }
     .home .home_Menu .text_home {
-      font-family: 'Allison', cursive;
+      font-family: "Allison", cursive;
       font-size: 6.5rem;
       color: #bc6c25; }
     .home .home_Menu .contenedorBotones {
       position: relative;
       overflow: hidden;
       height: 100px;
-      margin-top: 10px; }
-      .home .home_Menu .contenedorBotones::before {
-        background-image: url(../../img/fondobar1.jpg);
-        background-position: center;
-        background-repeat: no-repeat;
-        background-size: cover;
-        opacity: 0.5;
-        position: absolute;
-        top: 50%;
-        left: 50%;
-        transform: translate(-50% -50%);
-        width: 100%;
-        height: 100%; }
+      margin-bottom: 10px;
+      padding: 25px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      border-radius: 20px; }
+    .home .home_Menu .fondoBoton {
+      background-image: url(../img/bar.jpg);
+      background-position: center;
+      background-repeat: no-repeat;
+      background-size: cover;
+      opacity: 0.5;
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      width: 100%;
+      height: 100%; }
     .home .home_Menu .botones_Home {
       z-index: 2;
       text-decoration: none;
-      margin-top: 50px;
       font-family: "Fraunces", serif;
       font-size: 2rem;
       font-weight: bold;
@@ -85,57 +89,57 @@
       width: 100%; }
 
 /*Acerca de nosotros*/
-.fondoAbt {
-  display: flex;
-  justify-content: center;
-  text-align: center;
-  align-items: center;
-  background-image: url(../img/local2.avif);
-  background-size: cover;
-  height: 450px;
-  color: white; }
-  .fondoAbt .titulo {
-    font-family: "Cormorant Garamond", serif;
-    font-size: 4.5rem;
-    font-weight: bold;
-    color: white; }
-
-.abt {
-  display: flex;
-  background-color: #bb9457;
-  justify-content: center;
-  align-items: center; }
-  .abt .imgAbt {
-    max-height: 500px;
-    margin: 10px 0px;
-    max-width: 100%; }
-  .abt .abtText {
-    font-family: "Fraunces", serif;
-    font-weight: bold;
-    font-size: 1.5rem;
-    color: black;
-    margin: 10px; }
-
-.abtRedes {
-  display: flex;
-  background-color: #bb9457;
-  justify-content: center;
-  align-items: center; }
-  .abtRedes .abtRedesItem {
-    font-family: "Fraunces", serif;
-    font-size: 1.5rem;
-    color: white;
-    text-decoration: none; }
-  .abtRedes .abtRedesItem:hover {
-    color: #772e25; }
-  .abtRedes .abtRedesImg {
-    width: 50px;
-    margin: 5px; }
-
-.mapaAbt {
-  display: flex;
-  justify-content: center;
+body {
   background-color: #bb9457; }
+  body .fondoAbt {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    background-image: url(../img/local2.avif);
+    background-size: cover;
+    height: 450px;
+    color: white; }
+    body .fondoAbt .titulo {
+      font-family: "Cormorant Garamond", serif;
+      font-size: 4.5rem;
+      font-weight: bold;
+      color: white; }
+  body .abt {
+    display: flex;
+    background-color: #bb9457;
+    justify-content: center;
+    align-items: center; }
+    body .abt .imgAbt {
+      max-height: 500px;
+      margin: 10px 0px;
+      max-width: 400px;
+      width: 100%; }
+    body .abt .abtText {
+      font-family: "Fraunces", serif;
+      font-weight: bold;
+      font-size: 1.5rem;
+      color: black;
+      margin: 10px; }
+  body .abtRedes {
+    display: flex;
+    background-color: #bb9457;
+    justify-content: center;
+    align-items: center; }
+    body .abtRedes .abtRedesItem {
+      font-family: "Fraunces", serif;
+      font-size: 1.5rem;
+      color: white;
+      text-decoration: none; }
+    body .abtRedes .abtRedesItem:hover {
+      color: #772e25; }
+    body .abtRedes .abtRedesImg {
+      width: 50px;
+      margin: 5px; }
+  body .mapaAbt {
+    display: flex;
+    justify-content: center;
+    background-color: #bb9457; }
 
 /*Carta virtual*/
 .carta {

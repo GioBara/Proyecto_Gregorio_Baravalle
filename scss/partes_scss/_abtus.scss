@@ -1,68 +1,71 @@
-.fondoAbt {
-    display: flex;
-    justify-content: center;
-    text-align: center;
-    align-items: center;
-    background-image: url(../img/local2.avif);
-    background-size: cover;
-    height: 450px;
-    color: $colorTitulo;
-
-    .titulo {
-        font-family: $fontTitulo;
-        font-size: 4.5rem;
-        font-weight: bold;
+body {
+    background-color: $colorFondo;
+    .fondoAbt {
+        display: flex;
+        justify-content: center;
+        text-align: center;
+        align-items: center;
+        background-image: url(../img/local2.avif);
+        background-size: cover;
+        height: 450px;
         color: $colorTitulo;
-    }
-}
 
-.abt {
-    display: flex;
-    background-color: $colorFondo;
-    justify-content: center;
-    align-items: center;
-
-    .imgAbt {
-        max-height: 500px;
-        margin: 10px 0px;
-        max-width: 100%;
-
+        .titulo {
+            font-family: $fontTitulo;
+            font-size: 4.5rem;
+            font-weight: bold;
+            color: $colorTitulo;
+        }
     }
 
-    .abtText {
-        font-family: $fontTexto;
-        font-weight: bold;
-        font-size: 1.5rem;
-        color: $colorTexto;
-        margin: 10px;
-    }
-}
+    .abt {
+        display: flex;
+        background-color: $colorFondo;
+        justify-content: center;
+        align-items: center;
 
-.abtRedes {
-    display: flex;
-    background-color: $colorFondo;
-    justify-content: center;
-    align-items: center;
+        .imgAbt {
+            max-height: 500px;
+            margin: 10px 0px;
+            max-width: 400px;
+            width: 100%;
+        }
 
-    .abtRedesItem {
-        font-family: $fontTexto;
-        font-size: 1.5rem;
-        color: $colorTitulo;
-        text-decoration: none;
-    }
-
-    .abtRedesItem:hover {
-        color: $colorFondoTerciario;
+        .abtText {
+            font-family: $fontTexto;
+            font-weight: bold;
+            font-size: 1.5rem;
+            color: $colorTexto;
+            margin: 10px;
+        }
     }
 
-    .abtRedesImg {
-        width: 50px;
-        margin: 5px;
-    }
-}
+    .abtRedes {
+        display: flex;
+        background-color: $colorFondo;
+        justify-content: center;
+        align-items: center;
 
-.mapaAbt {
-    display: flex;
-    justify-content: center;
-    background-color: $colorFondo;
+        .abtRedesItem {
+            font-family: $fontTexto;
+            font-size: 1.5rem;
+            color: $colorTitulo;
+            text-decoration: none;
+        }
+
+        .abtRedesItem:hover {
+            color: $colorFondoTerciario;
+        }
+
+        .abtRedesImg {
+            width: 50px;
+            margin: 5px;
+        }
+    }
+
+    .mapaAbt {
+        display: flex;
+        justify-content: center;
+        background-color: $colorFondo;
+    }
 }
