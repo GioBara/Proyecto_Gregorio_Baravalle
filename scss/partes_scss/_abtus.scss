@@ -1,28 +1,35 @@
-.fondoAbt{
+.fondoAbt {
     display: flex;
     justify-content: center;
+    text-align: center;
     align-items: center;
     background-image: url(../img/local2.avif);
     background-size: cover;
-    height: 600px;
+    height: 450px;
     color: $colorTitulo;
-    .titulo{
+
+    .titulo {
         font-family: $fontTitulo;
-        font-size: 4rem;
+        font-size: 4.5rem;
         font-weight: bold;
-    }   
+        color: $colorTitulo;
+    }
 }
 
-.abt{
+.abt {
     display: flex;
     background-color: $colorFondo;
     justify-content: center;
     align-items: center;
-    .imgAbt{
-        height: 500px;
-        margin: 50px;
+
+    .imgAbt {
+        max-height: 500px;
+        margin: 10px 0px;
+        max-width: 100%;
+
     }
-    .abtText{
+
+    .abtText {
         font-family: $fontTexto;
         font-weight: bold;
         font-size: 1.5rem;
@@ -31,27 +38,30 @@
     }
 }
 
-.abtRedes{
+.abtRedes {
     display: flex;
     background-color: $colorFondo;
     justify-content: center;
     align-items: center;
-    .abtRedesItem{
+
+    .abtRedesItem {
         font-family: $fontTexto;
         font-size: 1.5rem;
         color: $colorTitulo;
         text-decoration: none;
     }
-    .abtRedesItem:hover{
+
+    .abtRedesItem:hover {
         color: $colorFondoTerciario;
     }
-    .abtRedesImg{
+
+    .abtRedesImg {
         width: 50px;
         margin: 5px;
     }
 }
 
-.mapaAbt{
+.mapaAbt {
     display: flex;
     justify-content: center;
     background-color: $colorFondo;

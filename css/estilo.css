@@ -10,65 +10,95 @@
 .navbar {
   background-color: #6f1d1b; }
   .navbar .navIcon {
-    width: 50px; }
-  .navbar .nav-link {
-    color: white;
-    font-family: "Fraunces", serif;
-    font-size: 1.4rem; }
-  .navbar .nav-link:hover {
-    color: #bb9457; }
+    width: 50px;
+    margin-left: 10px; }
+  .navbar .navbar-collapse {
+    text-align: center; }
+    .navbar .navbar-collapse .nav-link {
+      color: white;
+      font-family: "Fraunces", serif;
+      font-size: 1.4rem; }
+    .navbar .navbar-collapse .nav-link:hover {
+      color: #bb9457; }
+    .navbar .navbar-collapse .estoyEnPag {
+      color: #bb9457; }
 
 /*Home*/
 .home {
   background-color: #bb9457; }
   .home .fondoIndex {
     display: flex;
+    flex-direction: column;
+    text-align: center;
     justify-content: center;
     align-items: center;
-    background-image: url(../img/fondobar2R.png);
+    background-image: url(../img/fondomadera2.jpg);
     background-size: cover;
-    height: 600px; }
+    height: 450px; }
     .home .fondoIndex .titulo {
       font-family: "Cormorant Garamond", serif;
-      font-size: 4rem;
+      font-size: 4.5rem;
       font-weight: bold;
       color: white; }
+    .home .fondoIndex #imgTitulo {
+      margin-left: 10px;
+      height: 90px;
+      width: 90px; }
   .home .home_Menu {
     background-color: #bb9457;
     display: flex;
-    justify-content: center;
-    height: 200px; }
+    justify-content: center; }
+    .home .home_Menu .botones_Home:hover {
+      color: white;
+      transform: scale(1.1, 1.1); }
+    .home .home_Menu .text_home {
+      font-family: 'Allison', cursive;
+      font-size: 6.5rem;
+      color: #bc6c25; }
+    .home .home_Menu .contenedorBotones {
+      position: relative;
+      overflow: hidden;
+      height: 100px;
+      margin-top: 10px; }
+      .home .home_Menu .contenedorBotones::before {
+        background-image: url(../../img/fondobar1.jpg);
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        opacity: 0.5;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50% -50%);
+        width: 100%;
+        height: 100%; }
     .home .home_Menu .botones_Home {
+      z-index: 2;
       text-decoration: none;
       margin-top: 50px;
       font-family: "Fraunces", serif;
       font-size: 2rem;
       font-weight: bold;
-      color: black;
-      width: 100px; }
-    .home .home_Menu .botones_Home:hover {
-      color: white;
-      transform: scale(1.1, 1.1); }
-  .home .text_home {
-    font-family: 'Allison', cursive;
-    font-size: 8rem;
-    color: #bc6c25; }
-  .home .home_Icon {
-    height: 400px; }
+      color: black; }
+    .home .home_Menu #home_Icon {
+      max-width: 400px;
+      width: 100%; }
 
 /*Acerca de nosotros*/
 .fondoAbt {
   display: flex;
   justify-content: center;
+  text-align: center;
   align-items: center;
   background-image: url(../img/local2.avif);
   background-size: cover;
-  height: 600px;
+  height: 450px;
   color: white; }
   .fondoAbt .titulo {
     font-family: "Cormorant Garamond", serif;
-    font-size: 4rem;
-    font-weight: bold; }
+    font-size: 4.5rem;
+    font-weight: bold;
+    color: white; }
 
 .abt {
   display: flex;
@@ -76,8 +106,9 @@
   justify-content: center;
   align-items: center; }
   .abt .imgAbt {
-    height: 500px;
-    margin: 50px; }
+    max-height: 500px;
+    margin: 10px 0px;
+    max-width: 100%; }
   .abt .abtText {
     font-family: "Fraunces", serif;
     font-weight: bold;
@@ -191,18 +222,24 @@
     margin: auto; }
 
 /*Footer*/
-.footer {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-content: space-around;
+footer {
+  height: 100px;
   background-color: #6f1d1b; }
-  .footer .footerItem {
-    height: 25px;
-    font-family: "Cormorant Garamond", serif;
-    color: white;
-    font-size: 1.2rem;
-    margin: 10px;
-    text-decoration: none; }
-  .footer .redes:hover {
-    color: #bb9457; }
+  footer .footer {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    max-height: 500px; }
+    footer .footer .contenedorFooter {
+      margin-top: 20px;
+      max-height: 50px;
+      max-width: 300px; }
+    footer .footer .footerItem {
+      display: flex; }
+    footer .footer .contacto, footer .footer .redes {
+      font-family: "Cormorant Garamond", serif;
+      color: white;
+      font-size: 1.2rem;
+      text-decoration: none; }
+    footer .footer .redes:hover {
+      color: #bb9457; }

@@ -32,7 +32,7 @@
           <div class="navbar-nav">
             <a class="nav-link" aria-current="page" href="./paginas/abtus.html">Acerca de nosotros</a>
             <a class="nav-link" href="./paginas/carta.html">Carta</a>
-            <a class="nav-link" href="./paginas/contacto.html">Contacto</a>
+            <a class="nav-link" href="./paginas/contacto.html">Reservas</a>
             <a class="nav-link" href="./paginas/galeria.html">Galería</a>
           </div>
         </div>
@@ -43,29 +43,32 @@
   <main class="home">
     <!--Fondo y Titulo-->
     <div class="fondoIndex">
-      <h1 class="titulo" data-aos="zoom-in">Home</h1>
+      <h1 class="titulo" data-aos="zoom-in">Ristorante Alpino</h1> <img id="imgTitulo" src="./img/icono.png" alt="Icono sombrero">
     </div>
 
     <!--Icono Home-->
-    <div class="home_Icon home_Menu"  data-aos="fade-up" data-aos-duration="3000">
-      <img src="./img/icono.png" alt="Logo">
+    <div class="home_Menu"  data-aos="fade-up" data-aos-duration="3000">
+      <img id="home_Icon" src="./img/icono.png" alt="Logo">
     </div>
     <!--Titulo-->
-    <div class="home_Menu"><h1 class="text_home">Alpino Resto Bar</h1></div>
+    
 
     <!--Botones/Liks al resto de las paginas-->
     <div class="container-fluid text-center home_Menu">
       <div class="row">
-        <div class="col-lg-6 col-md-12">
+        <div class="col-lg-12">
+          <h1 class="text_home">Ristorante Alpino</h1>
+        </div>
+        <div class="col-lg-6 col-md-12 contenedorBotones">
           <a href="./paginas/abtus.html" class="botones_Home">Acerca de nosotros</a>
         </div>
-        <div class="col-lg-6 col-md-12">
+        <div class="col-lg-6 col-md-12 contenedorBotones">
           <a href="./paginas/carta.html" class="botones_Home">Carta</a>
         </div>
-        <div class="col-lg-6 col-md-12">
-          <a href="./paginas/contacto.html" class="botones_Home">Contacto</a>
+        <div class="col-lg-6 col-md-12 contenedorBotones">
+          <a href="./paginas/contacto.html" class="botones_Home">Reservas</a>
         </div>
-        <div class="col-lg-6 col-md-12">
+        <div class="col-lg-6 col-md-12 contenedorBotones">
           <a href="./paginas/galeria.html" class="botones_Home">Galería</a>
         </div>
       </div>
@@ -74,18 +77,16 @@
 
   <!--Footer/Redes sociales-->
   <footer>
-    <div class="container-fluid text-center">
-      <div class="row">  
-        <div class="footer col-lg-6 col-md-12">
-          <h3 class="footerItem">Lorem ipsum dolor sit amet consectetur adipisicing elit. Obcaecati, odio!</h3>
-          <h3 class="footerItem">Lorem ipsum dolor sit amet consectetur adipisicing elit. Vel, consectetur?</h3>
+    <div class="footer">
+        <div class="contenedorFooter">
+          <h3 class="contacto">ristorantealpino@gmail.com</h3>
+          <h3 class="contacto">+54 0351-0000001</h3>
         </div>
-        <div class="footer col-lg-6 col-md-12">
-          <a href="#" class="footerItem redes">Instagram</a>
-          <a href="#" class="footerItem redes">Twitter</a>
-          <a href="#" class="footerItem redes">Facebook</a>
+        <div class="contenedorfooter">
+          <div class="footerItem"><a href="#" class=" redes">Instagram</a></div>
+          <div class="footerItem"><a href="#" class=" redes">Twitter</a></div>
+          <div class="footerItem"><a href="#" class=" redes">Facebook</a></div>
         </div>
-      </div>
     </div>
   </footer>
     
