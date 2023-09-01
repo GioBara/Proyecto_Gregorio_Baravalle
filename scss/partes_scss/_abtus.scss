@@ -32,11 +32,13 @@ body {
         }
 
         .abtText {
+            text-align: center;
             font-family: $fontTexto;
             font-weight: bold;
             font-size: 1.5rem;
             color: $colorTexto;
             margin: 10px;
+            margin: 40px auto;
         }
     }
 

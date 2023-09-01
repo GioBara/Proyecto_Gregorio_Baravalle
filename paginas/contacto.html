@@ -43,36 +43,40 @@
   <main>
     <!--Fondo y Titulo-->
     <div class="fondoContac">
-      <h1 class="titulo"  data-aos="zoom-in">Contacto</h1>
+      <h1 class="titulo"  data-aos="zoom-in">Reserva tu mesa</h1>
     </div>
 
     <!--Formulario-->
     <div class="containerF">
       <form class="formulario row">
         <div class="mb-3 col-lg-6 col-md-12">
-          <label for="exampleInputEmail1" class="form-label">Email</label>
-          <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
-          <div id="emailHelp" class="form-text">No compartiremos tu Email con nadie mas.</div>
+          <label class="textoF" for="fecha" class="form-label">Fecha</label>
+          <input type="date" class="form-control" id="fecha">
         </div>
         <div class="mb-3 col-lg-6 col-md-12">
-          <label for="exampleInputEmail1" class="form-label">Nombre</label>
-          <input type="text" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+          <label class="textoF" for="hora" class="form-label">Hora</label>
+          <input type="time" class="form-control" id="hora">
         </div>
         <div class="mb-3 col-lg-6 col-md-12">
-          <label for="exampleInputEmail1" class="form-label">Apellido</label>
-          <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+          <label class="textoF" for="nombre" class="form-label">Nombre</label>
+          <input type="text" class="form-control" id="nombre">
         </div>
         <div class="mb-3 col-lg-6 col-md-12">
-          <label for="exampleInputPassword1" class="form-label">Contraseña</label>
-          <input type="password" class="form-control" id="exampleInputPassword1">
+          <label class="textoF" for="apellido" class="form-label">Apellido</label>
+          <input type="email" class="form-control" id="apellido">
+        </div>
+        <div class="mb-3 col-lg-12 col-md-12">
+          <label class="textoF" for="telefono" class="form-label">Telefono</label>
+          <input type="text" class="form-control" id="telefono">
         </div>
         <div class="mb-3 form-check">
-          <input type="checkbox" class="form-check-input" id="exampleCheck1">
-          <label class="form-check-label" for="exampleCheck1">Acepto los términos y condiciones</label>
+          <input type="checkbox" class="form-check-input" id="tyc">
+          <label class="textoF form-check-label" for="tyc">Acepto los <a class="linkTyC" href="#">términos y condiciones</a></label>
         </div>
-        <button type="submit" class="btn btn-dark">Enviar</button>
+        <button type="submit" class="btn btn-success">Enviar</button>
       </form>
     </div>
+
   </main>
 
   <!--Footer/Redes sociales-->

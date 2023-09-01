@@ -36,14 +36,10 @@
     background-size: cover;
     height: 450px; }
     .home .fondoIndex .titulo {
-      font-family: "Cormorant Garamond", serif;
+      font-family: "Allison", cursive;
       font-size: 4.5rem;
       font-weight: bold;
       color: white; }
-    .home .fondoIndex #imgTitulo {
-      margin-left: 10px;
-      height: 90px;
-      width: 90px; }
   .home .home_Menu {
     background-color: #bb9457;
     display: flex;
@@ -51,10 +47,6 @@
     .home .home_Menu .botones_Home:hover {
       color: white;
       transform: scale(1.1, 1.1); }
-    .home .home_Menu .text_home {
-      font-family: "Allison", cursive;
-      font-size: 6.5rem;
-      color: #bc6c25; }
     .home .home_Menu .contenedorBotones {
       position: relative;
       overflow: hidden;
@@ -66,7 +58,6 @@
       align-items: center;
       border-radius: 20px; }
     .home .home_Menu .fondoBoton {
-      background-image: url(../img/bar.jpg);
       background-position: center;
       background-repeat: no-repeat;
       background-size: cover;
@@ -77,6 +68,14 @@
       transform: translate(-50%, -50%);
       width: 100%;
       height: 100%; }
+    .home .home_Menu .fb1 {
+      background-image: url(../img/bar.jpg); }
+    .home .home_Menu .fb2 {
+      background-image: url(../../img/fondocartaR.jpg); }
+    .home .home_Menu .fb3 {
+      background-image: url(../../img/pizza.jpg); }
+    .home .home_Menu .fb4 {
+      background-image: url(../../img/cafe2R.jpg); }
     .home .home_Menu .botones_Home {
       z-index: 2;
       text-decoration: none;
@@ -116,11 +115,13 @@ body {
       max-width: 400px;
       width: 100%; }
     body .abt .abtText {
+      text-align: center;
       font-family: "Fraunces", serif;
       font-weight: bold;
       font-size: 1.5rem;
       color: black;
-      margin: 10px; }
+      margin: 10px;
+      margin: 40px auto; }
   body .abtRedes {
     display: flex;
     background-color: #bb9457;
@@ -150,30 +151,20 @@ body {
     align-items: center;
     background-image: url(../img/fondocartaR.png);
     background-size: cover;
-    height: 600px;
-    color: white; }
+    height: 450px;
+    color: white;
+    text-align: center; }
     .carta .fondoCarta .titulo {
       font-family: "Cormorant Garamond", serif;
       font-size: 4rem;
       font-weight: bold; }
-  .carta .accordion {
-    width: 80%;
+  .carta .contenedorC {
+    display: flex;
+    justify-content: center;
     margin: auto; }
-    .carta .accordion .accordion-button {
-      background-color: #6f1d1b;
-      font-family: "Fraunces", serif;
-      font-size: 1.5rem;
-      color: white;
-      font-weight: bold;
-      height: 100px; }
-    .carta .accordion .accordion-body {
-      background-color: #772e25; }
-      .carta .accordion .accordion-body .cartaTexto {
-        font-family: "Fraunces", serif;
-        margin: 20px;
-        color: white; }
-    .carta .accordion .accordion-collapse {
-      background-color: #bb9457; }
+    .carta .contenedorC .cartaImg {
+      max-width: 800px;
+      width: 100%; }
 
 /*Formulario de contacto*/
 .fondoContac {
@@ -182,8 +173,9 @@ body {
   align-items: center;
   background-image: url(../img/fondomadera4R.jpg);
   background-size: cover;
-  height: 600px;
-  color: white; }
+  height: 450px;
+  color: white;
+  text-align: center; }
   .fondoContac .titulo {
     font-family: "Cormorant Garamond", serif;
     font-size: 4rem;
@@ -192,10 +184,17 @@ body {
 .containerF {
   display: flex;
   background-color: #bb9457;
-  height: 500px; }
+  height: 500px;
+  margin: 20px 0; }
   .containerF .formulario {
     margin: auto;
-    width: 1100px; }
+    width: 800px; }
+    .containerF .formulario .textoF {
+      color: white;
+      font-family: "Fraunces", serif;
+      font-size: 1.2rem; }
+      .containerF .formulario .textoF .linkTyC {
+        color: #6f1d1b; }
 
 /*Galeria*/
 .galeria {

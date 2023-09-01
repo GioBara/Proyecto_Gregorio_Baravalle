@@ -1,46 +1,32 @@
-.carta{
+.carta {
     background-color: $colorFondo;
-    .fondoCarta{
+
+    .fondoCarta {
         display: flex;
         justify-content: center;
         align-items: center;
         background-image: url(../img/fondocartaR.png);
         background-size: cover;
-        height: 600px;
+        height: 450px;
         color: $colorTitulo;
-        .titulo{
+        text-align: center;
+
+        .titulo {
             font-family: $fontTitulo;
             font-size: 4rem;
             font-weight: bold;
-        }   
+        }
     }
-    .accordion{
-        width: 80%;
+
+    .contenedorC {
+        display: flex;
+        justify-content: center;
         margin: auto;
-        .accordion-button{
-            background-color: $colorFondoSecundario;
-            font-family:  $fontTexto;
-            font-size: 1.5rem;
-            color: $colorTitulo;
-            font-weight: bold;
-            height: 100px;
+        .cartaImg{
+            max-width: 800px;
+            width: 100%;
         }
-        .accordion-body{
-            background-color: $colorFondoTerciario;
-            .cartaTexto{
-                font-family: $fontTexto;
-                margin: 20px;
-                color: $colorTitulo;
-            }
-        }
-        .accordion-collapse{
-            background-color: $colorFondo;
-        }
-
     }
-    
+
+
 }
-
-
-
-

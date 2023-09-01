@@ -1,84 +1,89 @@
 .home {
-    background-color: $colorFondo;
-  
-    .fondoIndex {
-      display: flex;
-      flex-direction: column;
-      text-align: center;
-      justify-content: center;
-      align-items: center;
-      background-image: url(../img/fondomadera2.jpg);
-      background-size: cover;
-      height: 450px;
-  
-      .titulo {
-        font-family: $fontTitulo;
-        font-size: 4.5rem;
-        font-weight: bold;
-        color: $colorTitulo;
-      }
-  
-      #imgTitulo {
-        margin-left: 10px;
-        height: 90px;
-        width: 90px;
-      }
-    }
-  
-    .home_Menu {
-      background-color: $colorFondo;
-      display: flex;
-      justify-content: center;
-  
-      .botones_Home:hover {
-        color: $colorTitulo;
-        transform: scale(1.1, 1.1);
-      }
-  
-      .text_home {
-        font-family: "Allison", cursive;
-        font-size: 6.5rem;
-        color: #bc6c25;
-      }
-  
-      .contenedorBotones {
-        position: relative;
-        overflow: hidden;
-        height: 100px;
-        margin-bottom: 10px;
-        padding: 25px;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        border-radius: 20px;
-      }
-  
-      .fondoBoton {
-        background-image: url(../img/bar.jpg);
-        background-position: center;
-        background-repeat: no-repeat;
-        background-size: cover;
-        opacity: 0.5;
-        position: absolute;
-        top: 50%;
-        left: 50%;
-        transform: translate(-50%, -50%);
-        width: 100%;
-        height: 100%;
-      }
-  
-      .botones_Home {
-        z-index: 2;
-        text-decoration: none;
-        font-family: $fontTexto;
-        font-size: 2rem;
-        font-weight: bold;
-        color: $colorTexto;
-      }
-  
-      #home_Icon {
-        max-width: 400px;
-        width: 100%;
-      }
+  background-color: $colorFondo;
+
+  .fondoIndex {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    background-image: url(../img/fondomadera2.jpg);
+    background-size: cover;
+    height: 450px;
+
+    .titulo {
+      font-family: "Allison", cursive;
+      font-size: 4.5rem;
+      font-weight: bold;
+      color: $colorTitulo;
     }
   }
+
+  .home_Menu {
+    background-color: $colorFondo;
+    display: flex;
+    justify-content: center;
+
+    .botones_Home:hover {
+      color: $colorTitulo;
+      transform: scale(1.1, 1.1);
+    }
+
+
+    .contenedorBotones {
+      position: relative;
+      overflow: hidden;
+      height: 100px;
+      margin-bottom: 10px;
+      padding: 25px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      border-radius: 20px;
+    }
+
+    .fondoBoton {
+
+      background-position: center;
+      background-repeat: no-repeat;
+      background-size: cover;
+      opacity: 0.5;
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      width: 100%;
+      height: 100%;
+    }
+
+    .fb1 {
+      background-image: url(../img/bar.jpg);
+    }
+
+    .fb2 {
+      background-image: url(../../img/fondocartaR.jpg);
+    }
+
+    .fb3 {
+      background-image: url(../../img/pizza.jpg);
+    }
+
+    .fb4 {
+      background-image: url(../../img/cafe2R.jpg);
+    }
+
+    .botones_Home {
+      z-index: 2;
+      text-decoration: none;
+      font-family: $fontTexto;
+      font-size: 2rem;
+      font-weight: bold;
+      color: $colorTexto;
+    }
+
+    #home_Icon {
+      max-width: 400px;
+      width: 100%;
+    }
+  }
+}
