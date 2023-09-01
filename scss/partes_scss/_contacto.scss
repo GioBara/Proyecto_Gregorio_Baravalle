@@ -7,6 +7,7 @@
     height: 450px;
     color: $colorTitulo;
     text-align: center;
+
     .titulo {
         font-family: $fontTitulo;
         font-size: 4.5rem;
@@ -23,11 +24,13 @@
     .formulario {
         margin: auto;
         width: 800px;
-        .textoF{
+
+        .textoF {
             color: $colorTitulo;
             font-family: $fontTexto;
             font-size: 1.2rem;
-            .linkTyC{
+
+            .linkTyC {
                 color: $colorFondoSecundario;
             }
         }

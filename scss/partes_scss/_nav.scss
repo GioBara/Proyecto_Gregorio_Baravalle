@@ -1,28 +1,32 @@
-*{
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
-.navbar{
+
+.navbar {
     background-color: $colorFondoSecundario ;
-    .navIcon{
+
+    .navIcon {
         width: 50px;
         margin-left: 10px;
     }
-    .navbar-collapse{
+
+    .navbar-collapse {
         text-align: center;
-        .nav-link{
+
+        .nav-link {
             color: $colorTitulo;
             font-family: $fontTexto;
             font-size: 1.4rem;
         }
-        .nav-link:hover{
+
+        .nav-link:hover {
             color: $colorFondo;
         }
-        .estoyEnPag{
+
+        .estoyEnPag {
             color: $colorFondo;
         }
     }
 }
-
-

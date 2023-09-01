@@ -1,39 +1,42 @@
-.galeria{
+.galeria {
     background-color: $colorFondo;
 
-    .fondoGal{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    background-image: url(../img/fondocafeR.jpg);
-    background-size: cover;
-    height: 450px;
-    color: $colorTitulo;
-    .titulo{
-        font-family: $fontTitulo;
-        font-size: 4.5rem;
-        font-weight: bold;
-        }   
+    .fondoGal {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-image: url(../img/fondocafeR.jpg);
+        background-size: cover;
+        height: 450px;
+        color: $colorTitulo;
+
+        .titulo {
+            font-family: $fontTitulo;
+            font-size: 4.5rem;
+            font-weight: bold;
+        }
     }
-    .imgGal{
+
+    .imgGal {
         display: flex;
         justify-content: space-around;
-        .imgs{
+
+        .imgs {
             margin: 10px 0;
             max-width: 700px;
             width: 100%;
         }
-        .imgs:hover{
+
+        .imgs:hover {
             transform: scale(1.05, 1.05);
             transition: all 2s ease;
         }
     }
-    .carrusel{
-    min-width: 200px;
-    
-    width: 80%;
-    margin: auto;
+
+    .carrusel {
+        min-width: 200px;
+        width: 80%;
+        margin: auto;
     }
 
 }
-

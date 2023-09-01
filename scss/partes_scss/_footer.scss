@@ -1,28 +1,34 @@
-footer{
+footer {
     height: 100px;
     background-color: $colorFondoSecundario;
-    .footer{
+
+    .footer {
         display: flex;
         flex-direction: row;
         justify-content: space-around;
-        
+
         max-height: 500px;
-        .contenedorFooter{
+
+        .contenedorFooter {
             margin-top: 20px;
             max-height: 50px;
             max-width: 300px;
         }
-        .footerItem{
-           display: flex;
-           
+
+        .footerItem {
+            display: flex;
+
         }
-        .contacto , .redes{
+
+        .contacto,
+        .redes {
             font-family: $fontTitulo;
             color: $colorTitulo;
             font-size: 1.2rem;
             text-decoration: none;
         }
-        .redes:hover{
+
+        .redes:hover {
             color: $colorFondo;
         }
     }
