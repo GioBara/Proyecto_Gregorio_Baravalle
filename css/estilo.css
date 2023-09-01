@@ -156,7 +156,7 @@ body {
     text-align: center; }
     .carta .fondoCarta .titulo {
       font-family: "Cormorant Garamond", serif;
-      font-size: 4rem;
+      font-size: 4.5rem;
       font-weight: bold; }
   .carta .contenedorC {
     display: flex;
@@ -178,7 +178,7 @@ body {
   text-align: center; }
   .fondoContac .titulo {
     font-family: "Cormorant Garamond", serif;
-    font-size: 4rem;
+    font-size: 4.5rem;
     font-weight: bold; }
 
 .containerF {
@@ -205,22 +205,24 @@ body {
     align-items: center;
     background-image: url(../img/fondocafeR.jpg);
     background-size: cover;
-    height: 600px;
+    height: 450px;
     color: white; }
     .galeria .fondoGal .titulo {
       font-family: "Cormorant Garamond", serif;
-      font-size: 4rem;
+      font-size: 4.5rem;
       font-weight: bold; }
   .galeria .imgGal {
     display: flex;
     justify-content: space-around; }
     .galeria .imgGal .imgs {
-      margin: 10px;
-      width: 700px; }
+      margin: 10px 0;
+      max-width: 700px;
+      width: 100%; }
     .galeria .imgGal .imgs:hover {
       transform: scale(1.05, 1.05);
       transition: all 2s ease; }
   .galeria .carrusel {
+    min-width: 200px;
     width: 80%;
     margin: auto; }
 
