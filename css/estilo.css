@@ -71,11 +71,11 @@
     .home .home_Menu .fb1 {
       background-image: url(../img/bar.jpg); }
     .home .home_Menu .fb2 {
-      background-image: url(../../img/fondocartaR.jpg); }
+      background-image: url(../img/fondocartaR.jpg); }
     .home .home_Menu .fb3 {
-      background-image: url(../../img/pizza.jpg); }
+      background-image: url(../img/pizza.jpg); }
     .home .home_Menu .fb4 {
-      background-image: url(../../img/cafe2R.jpg); }
+      background-image: url(../img/cafe2R.jpg); }
     .home .home_Menu .botones_Home {
       z-index: 2;
       text-decoration: none;
@@ -241,7 +241,8 @@ footer {
       max-width: 300px; }
     footer .footer .footerItem {
       display: flex; }
-    footer .footer .contacto, footer .footer .redes {
+    footer .footer .contacto,
+    footer .footer .redes {
       font-family: "Cormorant Garamond", serif;
       color: white;
       font-size: 1.2rem;
